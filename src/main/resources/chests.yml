@@ -1,0 +1,21 @@
+chests:
+  magic:
+    name: "Magiczna skrzynka"
+    chest: "type=CHEST amount=1 name=&6Magiczna_Skrzynka lore=&7lore"
+    key: "type=NAME_TAG amount=1 name=&6Klucz_Magiczna_Skrzynka lore=&7lore"
+    drops:
+      #chance: item
+      #e.g: 20: "type=STONE amount=1"
+      #20% for Stone
+      20: "type=STONE amount=1"
+      50: "type=GOLDEN_APPLE amount=1"
+  magic2:
+    name: "Magiczna skrzynka 2"
+    chest: "type=CHEST amount=1 name=&6Magiczna_Skrzynka_2 lore=&7lore"
+    key: "type=NAME_TAG amount=1 name=&6Klucz_Magiczna_Skrzynka_2 lore=&7lore"
+    drops:
+      #chance: item
+      #e.g: 20: "type=STONE amount=1"
+      #20% for Stone
+      20: "type=DIRT amount=1"
+      50: "type=TNT amount=1"

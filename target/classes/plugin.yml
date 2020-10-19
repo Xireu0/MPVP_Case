@@ -1,0 +1,4 @@
+name: MPVP_Case
+author: specownik
+version: 1.0
+main: pl.masterpvp.specu.chests.CasePlugin
