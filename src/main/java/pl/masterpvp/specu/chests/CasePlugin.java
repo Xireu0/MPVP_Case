@@ -16,7 +16,7 @@ public class CasePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        CasePlugin.instance = this;
+        instance = this;
         BundleManager.registerFiles(new ChestsBundle());
         new ChestManager(BundleManager.getFile("chests").getConfiguration());
         CommandManager.registerCommands(new CaseCommand());
